@@ -2,7 +2,7 @@
   "typeScriptReactClassComponent": {
     "prefix": "tsrcc",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React, {Component} from 'react'",
       "",
       "interface Props {",
       "\t",
@@ -29,11 +29,12 @@
   "typeScriptReactClassExportComponent": {
     "prefix": "tsrce",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React, {Component} from 'react'",
       "",
       "interface Props {",
       "\t",
       "}",
+      "",
       "interface State {",
       "\t",
       "}",
@@ -142,7 +143,7 @@
   "typeScriptReactClassPureComponent": {
     "prefix": "tsrpc",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React, {PureComponent} from 'react'",
       "",
       "interface Props {",
       "\t",
@@ -164,7 +165,7 @@
   "typeScriptReactClassExportPureComponent": {
     "prefix": "tsrpce",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React, {PureComponent} from 'react'",
       "",
       "interface Props {",
       "\t",
@@ -188,7 +189,7 @@
   "typeScriptReactFunctionMemoComponent": {
     "prefix": "tsrmc",
     "body": [
-      "import React, { memo } from 'react'",
+      "import React, {memo} from 'react'",
       "",
       "interface Props {",
       "\t",
@@ -208,12 +209,13 @@
   "typeScriptReactClassCompomentRedux": {
     "prefix": "tsrcredux",
     "body": [
-      "import React, { Component } from 'react'",
-      "import { connect } from 'react-redux'",
+      "import React, {Component} from 'react'",
+      "import {connect} from 'react-redux'",
       "",
       "interface Props {",
       "\t",
       "}",
+      "",
       "interface State {",
       "\t",
       "}",
